@@ -1,0 +1,221 @@
+
+#logo{
+    color: rgb(229, 164, 42);
+}
+#navbarTogglerDemo02{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25px;
+    color: white;
+}
+a:hover{
+    color:rgb(229, 164, 42) ;
+}
+.nav-item{
+    color: aliceblue;
+}
+.bg-image{
+    background-image:url(bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-color: rgba(0,0,0,0.85);
+    background-blend-mode: darken;
+} 
+#bannertext{
+    margin-top: 100px;
+   margin-left: 20px;
+   color: white;
+   padding: 5px;
+}
+.banner-h1{
+    font-size: 40px;   
+}
+.banner-p{
+    font-size: 15px;
+}
+#bannarpic{
+    margin-top: 100px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+.pic{
+    -webkit-animation: spin 40s linear infinite;
+    -moz-animation: spin 40s linear infinite;
+    animation: spin 40s linear infinite;
+}
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@media screen and (max-width:767px){
+    #bannertext{
+      text-align: center;
+    }
+}
+
+#icons{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.icon{
+    font-size: 30px;
+    color:rgb(229, 164, 42) ;
+    margin-top: 15px;
+}
+.heading3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.services:hover { 
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);   
+  transition: .5s;
+  background-color:rgb(224, 200, 156) ;
+}
+.section2{
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+ @media screen and (max-width:991px) {
+    .services{
+      margin-top: 20px;
+    }
+ } 
+ @media screen and (max-width:767px) {
+    .services{
+      max-width: 300px;
+    margin-left: 60px;
+    } 
+} 
+  
+.img2{
+    margin-top: 50px;
+}
+.img3{
+    margin-bottom:60px;
+    margin-top: 20px;
+}
+.img4{
+    margin-top: 20px;
+} 
+.img-fluid{
+    max-width: 100%;
+}
+ 
+.about{
+    font-family: "Lucida Handwriting", cursive;
+    color: rgb(229, 164, 42) ;
+}
+.sec-part2{
+    margin-top: 70px;
+}
+.section3{
+    margin-top: 80px;
+}
+.sec-heading4{
+    font-family:"Lucida Handwriting", cursive;
+    color: rgb(229, 164, 42);    
+}
+.cup{
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(229, 164, 42);    
+}
+.burger{
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(229, 164, 42);
+    margin-left: 30px;  
+}
+.fork-knife{
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(229, 164, 42);  
+    margin-left: 30px; 
+}
+.sub-section3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.section4{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.Burger{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.doller{
+    margin-left: 100px;
+}
+.section5{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+ #floatingInputGrid{
+    width: 100%;
+    height: 100%;
+} 
+#floatingSelectGrid{
+    height: 100%;
+    width: 100%;
+}
+.btn-form{
+    height: 50px;
+    margin-bottom: 20px;
+    background-color:rgb(247, 163, 7); ;
+}
+.form{
+    margin-top: 50px;
+} 
+.Reservation{
+    color:rgb(247, 163, 7);
+    font-family:"Lucida Handwriting", cursive;   
+}
+@media screen and (max-width: 990px) {
+    .sub-sec5{
+    margin-top: 50px;
+    margin-left: 10px;
+    }
+    
+    }
+ #inpt{
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.foot-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 50px;
+    height: 40px;
+}
+ .Footer{
+     margin-top: 30px;
+} 
+ .foot-item{
+    list-style: none;
+}
+.foot-link{
+    text-decoration: none;
+    color: white;
+}
+.foot-heading{
+    color:rgb(247, 163, 7);
+    font-family:"Lucida Handwriting", cursive;
+    font-size: 30px;   
+}
+.media-icon{
+    font-size: 25px;
+    margin-left: 15px;
+}

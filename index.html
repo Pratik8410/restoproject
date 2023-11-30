@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+    <div class="container-fluid">
+      <h1 class=" m-0" id="logo"><i class="fa fa-utensils me-3"></i>Restoran</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Menu</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Page
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Booking</a></li>
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Testimonial</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex me-5" role="search">
+          <button class="btn btn-outline-success text-white" style="background-color:  rgb(229, 164, 42);"
+            type="submit">BOOK A TABLE</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main -section -->
+  <div class="container">
+    <div class="row justify-content-evenly bg-image ">
+      <div class="col-lg-6 col-md-6 col-12" id="bannertext">
+        <h3 class="banner-h1">Enjoy Our<br>
+          Delicious Meal</h3>
+        <p class="banner-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Beatae iste officiis,fuga quas
+          accusamus sint.<br> Beatae quas adipisci amet vel et numquam enim eius impedit<br> illo laborum.</p>
+        <button class="btn btn-outline-success text-white" style="background-color:  rgb(229, 164, 42);"
+          type="submit">BOOK A TABLE</button>
+      </div>
+      <div class=" col-lg-6 col-md-6 col-12" id="bannarpic">
+        <img src="hero.png" class="img-fluid pic">
+      </div>
+    </div>
+  </div>
+  <!-- section 1 -->
+
+  <div class="container">
+    <div class="row" id="icons">
+      <div class=" col-lg-3 col-md-6 col-12  ">
+        <div class="shadow p-4 services">
+          <i class="fa-solid fa-user-tie icon mt-2 "></i>
+          <h5 class="heading3">Master Chefs</h5>
+          <p class="mb-2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+      </div>
+      <div class=" col-lg-3 col-md-6 col-12 ">
+        <div class=" shadow p-4 services">
+          <i class="fa fa-utensils me-3 icon mt-2"></i>
+          <h5 class="heading3">Quality food</h5>
+          <p class="mb-2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+      </div>
+      <div class=" col-lg-3 col-md-6 col-12 ">
+        <div class=" shadow p-4 services">
+          <i class="fa-solid fa-cart-plus icon mt-2"></i>
+          <h5 class="heading3">Online Order</h5>
+          <p class="mb-2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+      </div>
+      <div class=" col-lg-3 col-md-6 col-12">
+        <div class="shadow p-4 services">
+          <i class="fa-solid fa-headphones-simple icon mt-2"></i>
+          <h5 class="heading3">24/7 Service</h5>
+          <p class="mb-2">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section 2 -->
+  <div class="container">
+    <div class="row section2 justify-content-evenly ">
+      <div class="col-lg-6 col-md-12 col-12 ">
+        <div class="row g1 text-center">
+          <div class="col-6 text-end ">
+            <img src="about-1.jpg" class="img-fluid img1" width="200px">
+          </div>
+          <div class="col-6 text-start">
+            <img src="about-2.jpg" class="img-fluid img2" width="150px">
+          </div>
+          <div class="col-6 text-end">
+            <img src="about-3.jpg" class="img-fluid img3" width="150px">
+          </div>
+          <div class="col-6 text-start">
+            <img src="about-4.jpg" class="img-fluid img4 " width="200px">
+          </div>
+        </div>
+      </div>
+      <div class=" col-lg-6 col-md-12 col-12 sec-part2">
+        <h1 class="about"><b>about Us -</b></h1>
+        <h1>Welcome to <i class="fa fa-utensils me-3" style="color: rgb(229, 164, 42);"></i>Restoran</h1>
+        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et
+          lorem et sit, sed stet lorem sit.</p>
+        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum
+          et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+        <div class="row ms-1">
+          <div class="col text-start d-flex" style="border-left: 5px solid rgb(229, 164, 42);">
+            <h1 style="font-size: 60px; color:rgb(229, 164, 42) ;">15</h1> <span class="ms-3 mt-2">Years
+              of<br><b>EXPERIENCE</b></span>
+          </div>
+          <div class="col text-start d-flex" style="border-left: 5px solid rgb(229, 164, 42);">
+            <h1 style="font-size: 60px; color:rgb(229, 164, 42) ;">50</h1> <span class="ms-3 mt-2">Popular<br><b>MASTER
+                CHEFS</b></span>
+          </div>
+        </div>
+        <form class="d-flex me-5 mt-5" role="search">
+          <button class="btn btn-outline-success text-white" style="background-color:  rgb(229, 164, 42);"
+            type="submit">
+            <h3>Read More</h3>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- section 3 -->
+  <div class="container">
+    <div class="row text-center section3">
+      <div class=" col-lg-12 col-md-12 col-12">
+        <h4 class="sec-heading4">- Food Menu -</h4>
+        <h1>Most Popular Items</h1>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <ul class="nav justify-content-center ">
+        <li class="nav-item ">
+          <a class="nav-link d-flex text-black">
+            <i class="fa-solid fa-mug-saucer cup"></i><span class="ms-3 mt-2">Popular<br><b>BREAKFAST</b></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex text-black">
+            <i class="fa-solid fa-burger burger"></i><span class="ms-3 mt-2">Special<br><b>LUNCH</b></span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex text-black">
+            <i class="fa fa-utensils fork-knife"></i><span class="ms-3 mt-2">Lovely<br><b>Dinner</b></span>
+          </a>
+        </li>
+    </div>
+  </div>
+</div>
+
+  
+
+
+
+
+  <!-- <div class="container text-center">
+    <div class="row ">
+      <div class="col d-flex ">
+        <i class="fa-solid fa-mug-saucer cup"></i><span class="ms-3 mt-2">Popular<br><b>BREAKFAST</b></span>
+        <i class="fa-solid fa-burger burger"></i><span class="ms-3 mt-2">Special<br><b>LUNCH</b></span>
+        <i class="fa fa-utensils fork-knife"></i><span class="ms-3 mt-2">Lovely<br><b>Dinner</b></span>
+      </div>
+    </div>
+  </div> -->
+
+  
+
+  <!-- section 4 -->
+  <div class="container">
+    <div class="row justify-content-evenly">
+      <div class="col-lg-6 col-md-12 col-12 section4">
+        <div class="menu1 d-flex">
+          <img src="menu-1.jpg" class="img-fluid " width="100px" height="50px">
+          <p class="Burger"><b>Chicken Burger</b> - <b class="doller" style="color:rgb(229, 164, 42);">$115</b><span
+              style="border-top:0.5px solid rgb(152, 152, 152) ;"><br>psum ipsum clita erat amet dolor justo diam</span>
+          </p>
+        </div>
+        <div class="menu2 d-flex mt-5">
+          <img src="menu-2.jpg" class="img-fluid" width="100px">
+          <p class="Burger"><b>Chicken Burger</b> - <b class="doller" style="color:rgb(229, 164, 42);">$200</b><span
+              style="border-top:0.5px solid rgb(152, 152, 152) ;"><br>psum ipsum clita erat amet dolor justo diam</span>
+          </p>
+        </div>
+        <div class="menu3 d-flex mt-5">
+          <img src="menu-3.jpg" class="img-fluid" width="100px">
+          <p class="Burger"><b>Chicken Burger</b> - <b class="doller" style="color:rgb(229, 164, 42);">$200</b><span
+              style="border-top:0.5px solid rgb(152, 152, 152) ;"><br>psum ipsum clita erat amet dolor justo diam</span>
+          </p>
+        </div>
+        <div class="menu4 d-flex mt-5">
+          <img src="menu-4.jpg" class="img-fluid" width="100px">
+          <p class="Burger"><b>Chicken Burger</b> - <b class="doller" style="color:rgb(229, 164, 42);">$200</b><span
+              style="border-top:0.5px solid rgb(152, 152, 152) ;"><br>psum ipsum clita erat amet dolor justo diam</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-12 section4">
+        <div class="menu5 d-flex">
+          <img src="menu-5.jpg" class="img-fluid " width="100px">
+          <p class="Burger"><b>Chicken Burger</b> - <b class="doller" style="color:rgb(229, 164, 42);">$115</b><span
+              style="border-top:0.5px solid rgb(152, 152, 152) ;"><br>psum ipsum clita erat amet dolor justo diam</span>
+          </p>
+        </div>
+        <div class="menu6 d-flex mt-5">
+          <img src="menu-6.jpg" class="img-fluid" width="100px">
+          <p class="Burger"><b>Chicken Burger</b> - <b class="doller" style="color:rgb(229, 164, 42);">$200</b><span
+              style="border-top:0.5px solid rgb(152, 152, 152) ;"><br>psum ipsum clita erat amet dolor justo diam</span>
+          </p>
+        </div>
+        <div class="menu7 d-flex mt-5">
+          <img src="menu-7.jpg" class="img-fluid" width="100px">
+          <p class="Burger"><b>Chicken Burger</b> - <b class="doller" style="color:rgb(229, 164, 42);">$200</b><span
+              style="border-top:0.5px solid rgb(152, 152, 152) ;"><br>psum ipsum clita erat amet dolor justo diam</span>
+          </p>
+        </div>
+        <div class="menu8 d-flex mt-5">
+          <img src="menu-8.jpg" class="img-fluid" width="100px">
+          <p class="Burger"><b>Chicken Burger</b> - <b class="doller" style="color:rgb(229, 164, 42);">$200</b><span
+              style="border-top:0.5px solid rgb(152, 152, 152) ;"><br>psum ipsum clita erat amet dolor justo diam</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- section5 -->
+
+  <div class="container">
+    <div class="row section5 justify-content-evenly ">
+      <div class="col-lg-6 col-md-12 col-12 ">
+        <video src="video.mp4" width=100%; height=100% class="object-fit-none" controls="player"></video>
+      </div>
+      <div class="col-lg-6 col-md-12 col-12 sub-sec5 " style="background-color:  #0F172B;">
+        <div class="form">
+          <h3 class="Reservation">Reservation -</h3>
+          <h1 style="color: white;">Book a Table Online</h1>
+          <div class="row g-2 mt-3">
+            <div class="col-md">
+              <div class="form-floating ">
+                <input type="text" class="form-control " id="floatingInputGrid" placeholder="Your Name">
+                <label for="floatingInputGrid">Your Name</label>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="form-floating">
+                <input type="email" class="form-control text-black" id="floatingInputGrid" placeholder=" Your email">
+                <label for="floatingInputGrid">Your Email</label>
+              </div>
+            </div>
+          </div>
+          <div class="row g-2 mt-2">
+            <div class="col-md">
+              <div class="form-floating ">
+                <input type="datetime" class="form-control " id="floatingInputGrid" placeholder="Your date & Time">
+                <label for="floatingInputGrid">Your date & Time</label>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="form-floating">
+                <select class="form-select" id="floatingSelectGrid">
+                  <option selected>No. Of People</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="mb-3 mt-3">
+            <textarea class="form-control" id="exampleFormControlInput1" rows="3"
+              placeholder="Special request"></textarea>
+          </div>
+          <div class="d-grid gap-2">
+            <button class="btn-form" type="button">Button</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+
+  <div class="container">
+    <div class="row text-white " style="background-color:  #0F172B;">
+      <div class="col-lg-3 col-md-6 col-12 Footer">
+        <h1 class="foot-heading">Company -</h1>
+        <ul>
+          <li class="foot-item">
+            <a class="foot-link" href="#">About us</a>
+          </li>
+          <li class="foot-item">
+            <a class="foot-link" href="#">Contact us</a>
+          </li>
+          <li class="foot-item">
+            <a class="foot-link" href="#">Reservation</a>
+          </li>
+          <li class="foot-item">
+            <a class="foot-link" href="#">Privacy Policy</a>
+          </li>
+          <li class="foot-item">
+            <a class="foot-link" href="#">Terms & Conditions</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 Footer">
+        <h1 class="foot-heading">Contact -</h1>
+        <p><i class="fa-solid fa-location-dot me-2"></i>123 Street, New York, USA</p>
+        <p><i class="fa-solid fa-phone me-2"></i>+012 345 67890</p>
+        <p><i class="fa-solid fa-envelope me-2"></i>info@example.com</p>
+        <p class="media-icon"><a href=""><i class="fa-brands fa-twitter text-white"></i></a>
+          <a href=""><i class="fa-brands fa-facebook text-white"></i></a>
+          <a href=""><i class="fa-brands fa-youtube text-white"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin text-white"></i></a>
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 Footer">
+        <h1 class="foot-heading">Opening -</h1>
+        <p>Monday - Saturday <br> 09AM - 09PM</p>
+        <p>Sunday <br> 10AM - 08PM</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12  Footer ">
+        <h1 class="foot-heading">Newspaper -</h1>
+        <p>Dolor amet sit justo amet elitr clita ipsum elitr est</p>
+        <form class="d-flex me-5" role="search">
+          <input type="email" class="form-control text-black" id="inpt" placeholder=" Your email">
+          <button class="btn foot-btn" style="background-color:  rgb(229, 164, 42);" type="submit">sign in</button>
+        </form>
+      </div>
+      <hr>
+      <p class="text-center">Copyright © 2048 Restoran. All rights reserved</p>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
